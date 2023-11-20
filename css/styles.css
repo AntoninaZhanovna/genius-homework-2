@@ -1,0 +1,126 @@
+ul {
+  list-style: none;
+}
+:root {
+  /* Text colors */
+  --color-primary-dark: #011c44;
+  --color-primary-light: #ffffff;
+  --color-primary-accent: #2b7fff;
+}
+
+body {
+  color: var(--color-primary-dark);
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  background-color: #e4e4e4;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary-dark);
+}
+
+address {
+  font-style: normal;
+}
+.nav-item {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.nav-item :hover {
+  color: var(--color-primary-accent);
+}
+
+.herou-name {
+  font-size: 18px;
+}
+.herou-title {
+  font-size: 140px;
+  font-family: Play;
+  text-transform: capitalize;
+  color: var(--color-primary-accent);
+}
+.btn {
+  font-size: 18px;
+  color: var(--color-primary-dark);
+  font-weight: 500;
+  background-color: var(--color-primary-light);
+  border: 2px solid var(--color-primary-accent);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-accent);
+  color: var(--color-primary-light);
+}
+.herou-text {
+  font-size: 16px;
+}
+.about-title {
+  font-family: Play;
+  font-size: 64px;
+}
+.aboutUs-color {
+  font-family: Play;
+  font-size: 64px;
+  color: var(--color-primary-accent);
+  text-transform: capitalize;
+}
+.aboutUs-text {
+  font-size: 22px;
+}
+.aboutUs-advert {
+  font-size: 22px;
+}
+
+.prefer-title {
+  text-align: center;
+  font-family: Play;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 1.3;
+}
+.prefer-color {
+  display: block;
+  text-align: center;
+  font-family: Play;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 1.3;
+  color: var(--color-primary-accent);
+}
+.prefer-item {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.procedures-title {
+  text-align: center;
+  font-family: Play;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 1.3;
+}
+.procedures-title-color {
+  display: block;
+  text-align: center;
+  font-family: Play;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 1.3;
+  color: var(--color-primary-accent);
+}
+
+.footer-nav-item {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-primary-light);
+}
+
+.address-copyright {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #747272;
+}
